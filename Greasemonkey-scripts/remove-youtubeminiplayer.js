@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name     _Remove annoying Youtube Miniplayer
+// @name     _Remove Youtube Miniplayer
 // @include  https://www.youtube.com/*
 // @require  https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @grant    GM_addStyle
