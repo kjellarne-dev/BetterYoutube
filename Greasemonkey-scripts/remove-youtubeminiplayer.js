@@ -12,6 +12,7 @@
 
 /*
 	Remove miniplayer HTML code
+	Source: https://github.com/Kjellarne6/BetterYoutube
 */
 
 var miniplayer = document.getElementsByClassName('miniplayer style-scope ytd-miniplayer')[0].parentElement;
