@@ -20,3 +20,7 @@ var miniplayer = document.getElementsByClassName('miniplayer style-scope ytd-min
 if (miniplayer) {
   miniplayer.parentNode.removeChild(miniplayer);
 }
+
+
+
+// Update 2024-02-22 - I assume this script isn't working anymore. Haven't tested in several years
