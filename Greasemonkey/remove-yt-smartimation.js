@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name     Remove Youtume smartimation
+// @name     Remove Youtube smartimation
 // @version  1
 // @grant    none
 // @match    http://*.youtube.com/*
