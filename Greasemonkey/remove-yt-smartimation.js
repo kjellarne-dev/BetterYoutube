@@ -21,20 +21,20 @@ function removeYTSmartimation () {
     elementToReplace.parentNode.insertBefore(replacementElement, elementToReplace);
     // Get rid of the element that is being replaced
     elementToReplace.parentNode.removeChild(elementToReplace);
-  }
+}
   
-  // Run the function twice to remove the smartimation-element from both the subscribe button and the like button
-  // Could probably select all elements that match and run it through a foreach loop, but fuck it, this works
-  // I don't want to spend more time than necessary trying to fix Youtube
+// Run the function twice to remove the smartimation-element from both the subscribe button and the like button
+// Could probably select all elements that match and run it through a foreach loop, but fuck it, this works
+// I don't want to spend more time than necessary trying to fix Youtube
   
-  var checkExist = setInterval(function() {
-      if (document.querySelector("yt-smartimation")) {
-          removeYTSmartimation();
-          removeYTSmartimation();
-          clearInterval(checkExist);
-      }
-  }, 100);
+var checkExist = setInterval(function() {
+    if (document.querySelector("yt-smartimation")) {
+        removeYTSmartimation();
+        removeYTSmartimation();
+        clearInterval(checkExist);
+    }
+}, 100);
   
-  // Checks every 100 ms if the yt-smartimation element has appeared on page
-  // Youtube 2024 is a fucking slog
-  // It is so slow that the subscribe button, like button, comments, recommended videos list etc don't load in until AFTER the "document finished loading" signal is triggered...
+// Checks every 100 ms if the yt-smartimation element has appeared on page
+// Youtube 2024 is a fucking slog
+// It is so slow that the subscribe button, like button, comments, recommended videos list etc don't load in until AFTER the "document finished loading" signal is triggered...
