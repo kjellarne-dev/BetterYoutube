@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name     Remove the fucking yt-smartimation shit
+// @name     Remove Youtume smartimation
 // @version  1
 // @grant    none
 // @match    http://*.youtube.com/*
